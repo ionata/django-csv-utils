@@ -12,6 +12,7 @@ Example import:
 ---------------
 
 .. code:: python
+
     from django_csv_utils import CSVImportException, ImportCommand, Importer
     from users.models import User
 
@@ -46,6 +47,11 @@ Example StreamingHTTPResponse:
 ------------------------------
 
 .. code:: python
+
+    from django_csv_utils import StreamingCSVView
+    from users.models import User
+
+
     class UserCSVView(StreamingCSVView):
         """Give the list of users."""
         header = [
