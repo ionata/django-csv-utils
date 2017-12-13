@@ -1,5 +1,3 @@
-__version__ = '1.0.1'
-
 try:
     from .exceptions import CSVImportException  # NOQA
     from .imports import Importer  # NOQA

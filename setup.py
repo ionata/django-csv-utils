@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
-from src.django_csv_utils import __version__
 
 
 with open('README.rst', 'r') as f:
@@ -8,7 +7,7 @@ with open('README.rst', 'r') as f:
 
 setup(
     name='django-csv-utils',
-    version=__version__,
+    version='1.0.1',
     description='Utilities for working with CSVs in Django',
     long_description=readme,
     author='Ionata Digital',
