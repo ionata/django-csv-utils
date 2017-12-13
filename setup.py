@@ -7,7 +7,7 @@ with open('README.rst', 'r') as f:
 
 setup(
     name='django-csv-utils',
-    version='1.0.1',
+    version='1.0.2',
     description='Utilities for working with CSVs in Django',
     long_description=readme,
     author='Ionata Digital',
